@@ -8,8 +8,8 @@
  *  Plugin Name: Posts in Page
  *  Plugin URI: https://ivycat.com/wordpress/wordpress-plugins/posts-in-page/
  *  Description: Easily add one or more posts to any page using simple shortcodes. Supports categories, tags, custom post types, custom taxonomies, and more.
- *  Version: 1.3.1
- *  Author: IvyCat, Inc.
+ *  Version: 1.3.2
+ *  Author: IvyCat, Inc. (Contrib: SourceCube)
  *  Author URI: https://ivycat.com/wordpress/
  *  Text Domain: posts-in-page
  *  Domain Path: /languages

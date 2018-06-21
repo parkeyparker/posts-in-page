@@ -64,8 +64,8 @@ class ICPagePosts {
 	}
 
 	protected function paginate_links( $posts ) {
-		global $wp_query;
-		$page_url = home_url( '/' . get_page_uri( $wp_query->post->ID ) . '/' );
+		global $wp;
+		$page_url = home_url( '/' . get_page_uri( $wp_->request ) . '/' );
 		$page = isset( $_GET['page'] ) ? $_GET['page'] : 1;
 		$total_pages = $posts->max_num_pages;
 		$per_page = $posts->query_vars['posts_per_page'];
